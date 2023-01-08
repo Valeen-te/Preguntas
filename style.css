@@ -13,6 +13,7 @@ a {
 
 body{
     background-color: aliceblue;
+    height: 100vh;
 }
 
 .titulo h2 {
