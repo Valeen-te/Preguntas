@@ -29,7 +29,7 @@ body{
     padding: 30px 30px 0 30px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.11);
     margin: 0 auto 50px auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .titulo-pregunta {
@@ -82,4 +82,12 @@ body{
 
 .texto-pregunta p {
     color: rgb(38, 88, 146);
+}
+@media screen and (max-width: 670px) {
+    .pregunta {
+        margin: 0 30px 50px 30px;
+    }
+    .titulo-pregunta p {
+        letter-spacing: 1px;
+    }
 }
